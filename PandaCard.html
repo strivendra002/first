@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda-Card</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card{
+            width: 300px;
+            border: 1px solid #cccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            font-family: Arial,Arial, Helvetica, sans-serif;
+
+        }
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+.card .container{
+    padding: 16px;
+
+}
+.card .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(63, 148, 63);
+}
+.card .subtitle{
+    color: gray;
+    font-size: 18px;
+}
+.card .year{
+    margin: 10px 0;
+}
+.card .stars{
+    color: gold;
+}
+    </style>
+</head>
+<body><div class="card">
+    <h1>Panda Card</h1>
+    <img src="https://i.natgeofe.com/k/6a96c3b4-2be1-498f-972e-76a20d973376/3_Baby_Pandas_KIDS_0322_16x9.jpg" alt="panda">
+    <div class="container">
+    <div class="title">John Doe</div>
+    <div class="subtitle">Computer Science 1</div>
+    <div class="subtitle">Computer Science 2</div>
+    <div class="year">Year: 3</div>
+    <div class="stars">★★★☆☆</div>
+</div>
+    </div>
+</body>
+</html>
