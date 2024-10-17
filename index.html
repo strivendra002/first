@@ -3,45 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chemistry Assignment</title>
+    <title>Panda-Card</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card{
+            width: 300px;
+            border: 1px solid #cccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            font-family: Arial,Arial, Helvetica, sans-serif;
+
+        }
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+.card .container{
+    padding: 16px;
+
+}
+.card .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(63, 148, 63);
+}
+.card .subtitle{
+    color: gray;
+    font-size: 18px;
+}
+.card .year{
+    margin: 10px 0;
+}
+.card .stars{
+    color: gold;
+}
+    </style>
 </head>
-<body>
-    <h1>Chemistry Assignment</h1>
-  
-        <h2>Chemistry is the science of substances</h2>
-        <p>Chemistry involves the study of substances, their properties, and how they interact with each other.</p>
-    
-  
-        <h2>Chemical Elements</h2>
-        <p>Chemical elements are pure substances that consist of only one type of atom.</p>
-    
-  
-        <h3>Chemical Reactions</h3>
-        <p>Chemical reactions involve the transformation of substances through the breaking and forming of bonds.</p>
-    
-  
-        <h4>Equations of Reactions</h4>
-        <p>Equations of <span style="background-color: yellow;">reactions</span> represent the reactants and products in a chemical reaction.</p>
-        <p>Example: 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O</p>
-    
-  
-        <h2 style="font-style: italic;">Further Exploration</h2>
-        <h5>
-          conclusion
-        </h5>
-        <p>
-Chemistry Plays a crucial role in understanding the world around us. From the composition of the air we breathe to reactions that power our bodies,
-<<<<<<< HEAD
-chemistry influences every aspects of our lives.
-=======
-chemistry influences every aspect of our lives.
->>>>>>> 3dc32e57a68048fc037a08e5ad6c501021b2c650
-        </p>
-        <ul>
-            <li><a href="https://www.periodictable.com">Periodic Table</a></li>
-            <li><a href="https://www.khanacademy.org/science/chemistry">Khan Academy Chemistry</a></li>
-            <li><a href="https://www.chemicalreactions.com">Chemical Reactions</a></li>
-        </ul>
-    
+<body><div class="card">
+    <h1>Panda Card</h1>
+    <img src="https://i.natgeofe.com/k/6a96c3b4-2be1-498f-972e-76a20d973376/3_Baby_Pandas_KIDS_0322_16x9.jpg" alt="panda">
+    <div class="container">
+    <div class="title">John Doe</div>
+    <div class="subtitle">Computer Science 1</div>
+    <div class="subtitle">Computer Science 2</div>
+    <div class="year">Year: 3</div>
+    <div class="stars">★★★☆☆</div>
+</div>
+    </div>
 </body>
 </html>
